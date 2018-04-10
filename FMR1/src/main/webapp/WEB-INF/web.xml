@@ -1,0 +1,52 @@
+
+<web-app>
+
+  <display-name>Archetype Created Web Application</display-name>
+  
+  <servlet>
+   <servlet-name>Home</servlet-name>
+    <servlet-class>view.Home</servlet-class> 
+    </servlet>
+     <servlet-mapping> 
+    <servlet-name>Home</servlet-name>
+     <url-pattern>/Home</url-pattern> 
+     </servlet-mapping>
+  
+  <servlet>
+   <servlet-name>MetodoPagamento</servlet-name>
+    <servlet-class>view.MetodoPagamento</servlet-class> 
+    </servlet>
+     <servlet-mapping> 
+    <servlet-name>MetodoPagamento</servlet-name>
+     <url-pattern>/MetodoPagamento</url-pattern> 
+     </servlet-mapping>
+     
+      <servlet>
+   <servlet-name>OrdineView</servlet-name>
+    <servlet-class>view.OrdineView</servlet-class> 
+    </servlet>
+     <servlet-mapping> 
+    <servlet-name>OrdineView</servlet-name>
+     <url-pattern>/OrdineView</url-pattern> 
+     </servlet-mapping>
+  
+   <servlet>
+   <servlet-name>UtenteaView</servlet-name>
+    <servlet-class>view.UtenteaView</servlet-class> 
+    </servlet>
+     <servlet-mapping> 
+    <servlet-name>UtenteaView</servlet-name>
+     <url-pattern>/UtenteaView</url-pattern> 
+     </servlet-mapping>
+  
+   <servlet>
+   <servlet-name>UtentesView</servlet-name>
+    <servlet-class>view.UtentesView</servlet-class> 
+    </servlet>
+     <servlet-mapping> 
+    <servlet-name>UtentesView</servlet-name>
+     <url-pattern>/UtentesView</url-pattern> 
+     </servlet-mapping>
+  
+</web-app>
+
