@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-	pageEncoding="ISO-8859-1"%>
+    pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 
 <html lang="en">
@@ -60,8 +60,8 @@ footer {
 				<li><a href="#">Contatti</a></li>
 			</ul>
 			<ul class="nav navbar-nav navbar-right">
-				<li><a href="http://localhost:8080/FMR1/Login"><span class="glyphicon glyphicon-log-in"></span>
-						Login</a></li>
+				<li><a href="http://localhost:8080/FMR1/Home"><span class="glyphicon glyphicon-log-in"></span>
+						Logout</a></li>
 			</ul>
 		</div>
 	</div>
@@ -80,7 +80,6 @@ footer {
 				<img src="2000px-Fujitsu_FMR_logo.svg.png" class="img-responsive" style="width: 84%"
 					height="79%">
 				<div class="carousel-caption">
-					<h3></h3>
 					<p></p>
 				</div>
 			</div>
@@ -89,7 +88,6 @@ footer {
 				<img src="48121057-La-logistica-del-trasporto-concetto-di-aerei-camion-treni-e-navi-da-carico-che-esce-di-un-globo-Archivio-Fotografico.jpg" class="img-responsive" style="width: 50%"
 					height="45%">
 				<div class="carousel-caption">
-					<h3></h3>
 					<p></p>
 				</div>
 			</div>
@@ -108,10 +106,11 @@ footer {
 
 	<div class="container text-center">
 		<br>
+		<h1>Benvenuto!</h1>
 		<div class="row">
 			<div class="col-sm-4"></div>
 			<div class="container">
-			<form action="Registrazione">
+			<form action="pagina successiva">
 				<button type="submit" class="btn btn-primary btn-block" style="text-align: center;">Crea
 					la tua spedizione</button>
 					</form>
@@ -132,3 +131,4 @@ footer {
 </body>
 </html>
 
+    

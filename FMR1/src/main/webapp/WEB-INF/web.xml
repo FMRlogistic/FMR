@@ -47,6 +47,34 @@
     <servlet-name>UtentesView</servlet-name>
      <url-pattern>/UtentesView</url-pattern> 
      </servlet-mapping>
+     
+     <servlet>
+   <servlet-name>Login</servlet-name>
+    <servlet-class>view.Login</servlet-class> 
+    </servlet>
+     <servlet-mapping> 
+    <servlet-name>Login</servlet-name>
+     <url-pattern>/Login</url-pattern> 
+     </servlet-mapping>
+  
+   <servlet>
+   <servlet-name>Registrazione</servlet-name>
+    <servlet-class>view.Registrazione</servlet-class> 
+    </servlet>
+     <servlet-mapping> 
+    <servlet-name>Registrazione</servlet-name>
+     <url-pattern>/Registrazione</url-pattern> 
+     </servlet-mapping>
+     
+     <servlet>
+   <servlet-name>HomLog</servlet-name>
+    <servlet-class>view.HomeLog</servlet-class> 
+    </servlet>
+     <servlet-mapping> 
+    <servlet-name>HomeLog</servlet-name>
+     <url-pattern>/HomeLog</url-pattern> 
+     </servlet-mapping>
+  
   
 </web-app>
 
