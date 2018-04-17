@@ -56,7 +56,6 @@ footer {
 		<div class="collapse navbar-collapse" id="myNavbar">
 			<ul class="nav navbar-nav">
 				<li class="active"><a href="http://localhost:8080/FMR1/Home">Home</a></li>
-				<li><a href="#">Chi Siamo</a></li>
 				<li><a href="#">Contatti</a></li>
 			</ul>
 			<ul class="nav navbar-nav navbar-right">
@@ -118,7 +117,11 @@ footer {
 			</div>
 		</div>
 	</div>
-
+	
+	<marquee width=45% height=215 direction="up" scrollAmount=1>
+<div align="center">
+</div></marquee>
+ 
 	<footer>
 	<div class="text-white" style="background-color: #c0c0d8;">
 		<div class="row">

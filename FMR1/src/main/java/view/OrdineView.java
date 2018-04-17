@@ -18,7 +18,7 @@ public class OrdineView extends HttpServlet {
 			
 			req.setAttribute("","");
 			
-			String nextJSP = "";
+			String nextJSP = "/Ordine.jsp";
 			RequestDispatcher dispatcher = getServletContext().getRequestDispatcher(nextJSP);
 			dispatcher.forward(req,resp);
 			

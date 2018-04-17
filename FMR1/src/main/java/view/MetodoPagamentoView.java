@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-public class UtenteaView extends HttpServlet {
+public class MetodoPagamentoView extends HttpServlet {
 
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -23,7 +23,6 @@ public class UtenteaView extends HttpServlet {
 			dispatcher.forward(req,resp);
 		
 	
-		
 	}
 
 	@Override

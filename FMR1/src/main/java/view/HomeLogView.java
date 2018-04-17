@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-public class Registrazione extends HttpServlet {
+public class HomeLogView extends HttpServlet {
 
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -17,7 +17,7 @@ public class Registrazione extends HttpServlet {
 		
 		req.setAttribute("","");
 		
-		String nextJSP = "/Registrazione.jsp";
+		String nextJSP = "/HomeLog.jsp";
 		RequestDispatcher dispatcher = getServletContext().getRequestDispatcher(nextJSP);
 		dispatcher.forward(req,resp);
 		
@@ -30,6 +30,5 @@ public class Registrazione extends HttpServlet {
 		// TODO Auto-generated method stub
 		super.doPost(req, resp);
 	}
-	
 
 }

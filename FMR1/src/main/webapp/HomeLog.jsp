@@ -56,7 +56,6 @@ footer {
 		<div class="collapse navbar-collapse" id="myNavbar">
 			<ul class="nav navbar-nav">
 				<li class="active"><a href="http://localhost:8080/FMR1/Home">Home</a></li>
-				<li><a href="#">Chi Siamo</a></li>
 				<li><a href="#">Contatti</a></li>
 			</ul>
 			<ul class="nav navbar-nav navbar-right">
@@ -106,17 +105,21 @@ footer {
 
 	<div class="container text-center">
 		<br>
-		<h1>Benvenuto!</h1>
+		<h1 style="border: 2px solid Black;">Benvenuto in FMRlogistic!</h1>
 		<div class="row">
 			<div class="col-sm-4"></div>
 			<div class="container">
-			<form action="pagina successiva">
+			<form action="Ordine">
 				<button type="submit" class="btn btn-primary btn-block" style="text-align: center;">Crea
 					la tua spedizione</button>
 					</form>
 			</div>
 		</div>
 	</div>
+
+<marquee width=45% height=220 direction="up" scrollAmount=1>
+<div align="center">
+</div></marquee>
 
 	<footer>
 	<div class="text-white" style="background-color: #c0c0d8;">

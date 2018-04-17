@@ -4,20 +4,20 @@
   <display-name>Archetype Created Web Application</display-name>
   
   <servlet>
-   <servlet-name>Home</servlet-name>
-    <servlet-class>view.Home</servlet-class> 
+   <servlet-name>HomeView</servlet-name>
+    <servlet-class>view.HomeView</servlet-class> 
     </servlet>
      <servlet-mapping> 
-    <servlet-name>Home</servlet-name>
+    <servlet-name>HomeView</servlet-name>
      <url-pattern>/Home</url-pattern> 
      </servlet-mapping>
   
   <servlet>
-   <servlet-name>MetodoPagamento</servlet-name>
-    <servlet-class>view.MetodoPagamento</servlet-class> 
+   <servlet-name>MetodoPagamentoView</servlet-name>
+    <servlet-class>view.MetodoPagamentoView</servlet-class> 
     </servlet>
      <servlet-mapping> 
-    <servlet-name>MetodoPagamento</servlet-name>
+    <servlet-name>MetodoPagamentoView</servlet-name>
      <url-pattern>/MetodoPagamento</url-pattern> 
      </servlet-mapping>
      
@@ -27,51 +27,33 @@
     </servlet>
      <servlet-mapping> 
     <servlet-name>OrdineView</servlet-name>
-     <url-pattern>/OrdineView</url-pattern> 
-     </servlet-mapping>
-  
-   <servlet>
-   <servlet-name>UtenteaView</servlet-name>
-    <servlet-class>view.UtenteaView</servlet-class> 
-    </servlet>
-     <servlet-mapping> 
-    <servlet-name>UtenteaView</servlet-name>
-     <url-pattern>/UtenteaView</url-pattern> 
-     </servlet-mapping>
-  
-   <servlet>
-   <servlet-name>UtentesView</servlet-name>
-    <servlet-class>view.UtentesView</servlet-class> 
-    </servlet>
-     <servlet-mapping> 
-    <servlet-name>UtentesView</servlet-name>
-     <url-pattern>/UtentesView</url-pattern> 
+     <url-pattern>/Ordine</url-pattern> 
      </servlet-mapping>
      
      <servlet>
-   <servlet-name>Login</servlet-name>
-    <servlet-class>view.Login</servlet-class> 
+   <servlet-name>LoginView</servlet-name>
+    <servlet-class>view.LoginView</servlet-class> 
     </servlet>
      <servlet-mapping> 
-    <servlet-name>Login</servlet-name>
+    <servlet-name>LoginView</servlet-name>
      <url-pattern>/Login</url-pattern> 
      </servlet-mapping>
   
    <servlet>
-   <servlet-name>Registrazione</servlet-name>
-    <servlet-class>view.Registrazione</servlet-class> 
+   <servlet-name>RegistrazioneView</servlet-name>
+    <servlet-class>view.RegistrazioneView</servlet-class> 
     </servlet>
      <servlet-mapping> 
-    <servlet-name>Registrazione</servlet-name>
+    <servlet-name>RegistrazioneView</servlet-name>
      <url-pattern>/Registrazione</url-pattern> 
      </servlet-mapping>
      
      <servlet>
-   <servlet-name>HomLog</servlet-name>
-    <servlet-class>view.HomeLog</servlet-class> 
+   <servlet-name>HomeLogView</servlet-name>
+    <servlet-class>view.HomeLogView</servlet-class> 
     </servlet>
      <servlet-mapping> 
-    <servlet-name>HomeLog</servlet-name>
+    <servlet-name>HomeLogView</servlet-name>
      <url-pattern>/HomeLog</url-pattern> 
      </servlet-mapping>
   

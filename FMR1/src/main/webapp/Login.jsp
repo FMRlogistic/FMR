@@ -11,6 +11,11 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body style="background-color:#c0c0d8"/>
+
+<marquee width=45% height=150 direction="up" scrollAmount=1>
+<div align="center">
+</div></marquee>
+
 <div class="container">
   <h2>Login</h2>
     <div class="form-group">

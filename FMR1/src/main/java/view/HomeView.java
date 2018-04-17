@@ -8,18 +8,18 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-public class UtentesView extends HttpServlet {
+public class HomeView extends HttpServlet {
 
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+        resp.setContentType("text/html");
 		
-		 resp.setContentType("text/html");
-			
-			req.setAttribute("","");
-			
-			String nextJSP = "";
-			RequestDispatcher dispatcher = getServletContext().getRequestDispatcher(nextJSP);
-			dispatcher.forward(req,resp);
+		req.setAttribute("","");
+		
+		String nextJSP = "/Home.jsp";
+		RequestDispatcher dispatcher = getServletContext().getRequestDispatcher(nextJSP);
+		dispatcher.forward(req,resp);
 		
 	
 		
@@ -30,5 +30,7 @@ public class UtentesView extends HttpServlet {
 		// TODO Auto-generated method stub
 		super.doPost(req, resp);
 	}
+	
+	
 
 }
