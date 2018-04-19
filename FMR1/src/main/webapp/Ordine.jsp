@@ -74,7 +74,7 @@ footer {
       <input type="paese" class="form-control" id="paese" placeholder="paese" name="paese">
     </div>
     <div class="form-group">
-      <label for="società">Società:</label>
+      <label for="società">Società / Privato:</label>
       <input type="società" class="form-control" id="società" placeholder="società" name="società">
     </div>
     <div class="form-group">

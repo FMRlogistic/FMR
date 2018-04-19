@@ -55,7 +55,7 @@ footer {
 		</div>
 		<div class="collapse navbar-collapse" id="myNavbar">
 			<ul class="nav navbar-nav">
-				<li class="active"><a href="http://localhost:8080/FMR1/Home">Home</a></li>
+				<li class="active"><a href="http://localhost:8080/FMR1/HomeLog">Home</a></li>
 				<li><a href="#">Contatti</a></li>
 			</ul>
 			<ul class="nav navbar-nav navbar-right">
@@ -110,8 +110,8 @@ footer {
 			<div class="col-sm-4"></div>
 			<div class="container">
 			<form action="Ordine">
-				<button type="submit" class="btn btn-primary btn-block" style="text-align: center;">Crea
-					la tua spedizione</button>
+				<button type="submit" class="btn btn-primary btn-block" style="text-align: center;"><h4>Crea
+					la tua Spedizione</h4></button>
 					</form>
 			</div>
 		</div>

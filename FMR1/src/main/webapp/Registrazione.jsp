@@ -11,7 +11,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
-<body style="background-color:#c0c0d8"/>
+<body style="background-color:#d0d0e1"/>
 <div class="container">
   <h2>Registrazione</h2>
     <div class="form-group">
