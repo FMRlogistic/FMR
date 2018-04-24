@@ -8,11 +8,15 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import model.*;
+
 public class OrdineView extends HttpServlet {
 
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		// TODO Auto-generated method stub
+		
+		OrdineModel OrdineM= new OrdineModel();
 		
 		 resp.setContentType("text/html");
 			
@@ -22,6 +26,10 @@ public class OrdineView extends HttpServlet {
 			RequestDispatcher dispatcher = getServletContext().getRequestDispatcher(nextJSP);
 			dispatcher.forward(req,resp);
 			
+			OrdineM.setPeso(req.getParameter("telefono"));
+			
+			OrdineM.prezzo();
+		
 	}
 
 	@Override

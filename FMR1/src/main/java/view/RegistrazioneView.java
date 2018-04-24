@@ -1,6 +1,8 @@
 package view;
 
 import java.io.IOException;
+import model.*;
+import controller.*;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -13,6 +15,11 @@ public class RegistrazioneView extends HttpServlet {
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		// TODO Auto-generated method stub
+		
+		UtenteaModel UtenteM= new UtenteaModel();
+		
+		ValidatoreUtentea ValidUtentea= new ValidatoreUtentea();
+		
         resp.setContentType("text/html");
 		
 		req.setAttribute("","");
@@ -21,7 +28,9 @@ public class RegistrazioneView extends HttpServlet {
 		RequestDispatcher dispatcher = getServletContext().getRequestDispatcher(nextJSP);
 		dispatcher.forward(req,resp);
 		
-	
+	    UtenteM.setTelefono(req.getParameter("telefono"));
+	    
+	    ValidUtentea.controlli();
 		
 	}
 
