@@ -94,19 +94,19 @@ footer {
       <label for="oggetto">Oggetto:</label>
       <input type="oggetto" class="form-control" id="oggetto" placeholder="oggetto" name="oggetto">
     </div>
-    <div class="form-group">
-      <label for="peso">Peso:</label>
+    <div class="form-group" method="get" action="OrdineView">
+      <label for="peso">Peso (kg):</label>
       <input type="peso" class="form-control" id="peso" placeholder="peso" name="peso">
     </div>
     <div class="form-group">
-      <label for="larghezza">Larghezza:</label>
+      <label for="larghezza">Larghezza (m):</label>
       <input type="larghezza" class="form-control" id="larghezza" placeholder="larghezza" name="larghezza">
     </div>
     <div class="form-group">
-      <label for="lunghezza">Lunghezza:</label>
+      <label for="lunghezza">Lunghezza (m):</label>
       <input type="lunghezza" class="form-control" id="lunghezza" placeholder="lunghezza" name="lunghezza">
     </div>
-    <form action="MetodoPagamento">
+    <form action="Pagamento">
     <button type="Submit" class="btn btn-default">Avanti</button>
   </form>
 </div>

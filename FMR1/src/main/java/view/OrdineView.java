@@ -16,20 +16,30 @@ public class OrdineView extends HttpServlet {
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		
-		OrdineModel OrdineM= new OrdineModel();
-		
-		 resp.setContentType("text/html");
+		    resp.setContentType("text/html");
 			
-			req.setAttribute("","");
+		    int prova=0;
+		    
+		    int calcolo=0;
+		    
+		    if(req.getParameter("peso")!=null) {
+		    	
+			prova=Integer.parseInt(req.getParameter("peso"));
 			
+			OrdineModel OrdineM= new OrdineModel();
+			
+			OrdineM.setPeso(prova);
+			
+			calcolo=OrdineM.prezzo();
+			
+			req.setAttribute("prezzo", calcolo);
+			
+		    }
+		    
 			String nextJSP = "/Ordine.jsp";
 			RequestDispatcher dispatcher = getServletContext().getRequestDispatcher(nextJSP);
 			dispatcher.forward(req,resp);
-			
-			OrdineM.setPeso(req.getParameter("telefono"));
-			
-			OrdineM.prezzo();
-		
+	
 	}
 
 	@Override

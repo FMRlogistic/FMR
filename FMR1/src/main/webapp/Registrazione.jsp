@@ -13,7 +13,10 @@
 
 <body style="background-color:#d0d0e1"/>
 <div class="container">
-  <h2>Registrazione</h2>
+  <h1>Registrazione</h1>
+  <marquee width=45% height=30 direction="up" scrollAmount=1>
+<div align="center">
+</div></marquee>
     <div class="form-group">
       <label for="nome">Nome:</label>
       <input type="nome" class="form-control" id="nome" placeholder="nome" name="nome">
@@ -46,7 +49,10 @@
       <label for="codice fiscale">Codice Fiscale:</label>
       <input type="codice fiscale" class="form-control" id="codice fiscale" placeholder="codice fiscale" name="codice fiscale">
     </div>
+    <marquee width=45% height=30 direction="up" scrollAmount=1>
+<div align="center">
+</div></marquee>
     <form action="Login">
-    <button type="Submit" class="btn btn-default">Registrati</button>
+    <button type="Submit" class="btn btn-default"><h4>Registrati</h4></button>
   </form>
 </div>

@@ -2,28 +2,37 @@ package model;
 
 public class OrdineModel {
 	
-	private String peso;
+	private int peso, prezzo;
 
 
-	public String getPeso() {
+	public int getPrezzo() {
+		return prezzo;
+	}
+
+
+	public void setPrezzo(int prezzo) {
+		this.prezzo = prezzo;
+	}
+
+
+	public int getPeso() {
 		return peso;
 	}
 
 
-
-	public void setPeso(String peso) {
+	public void setPeso(int peso) {
 		this.peso = peso;
 	}
 
-
-
-	public void prezzo() {
+	public int prezzo() {
 		
-		OrdineModel OrdineM= new OrdineModel();
+		if(peso>50) {
+			
+        prezzo=100;
+        
+		}
 		
-		
-		
-		
+		return prezzo;
 	}
 
 }

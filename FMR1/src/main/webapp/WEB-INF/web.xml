@@ -18,7 +18,7 @@
     </servlet>
      <servlet-mapping> 
     <servlet-name>MetodoPagamentoView</servlet-name>
-     <url-pattern>/MetodoPagamento</url-pattern> 
+     <url-pattern>/Pagamento</url-pattern> 
      </servlet-mapping>
      
       <servlet>
@@ -55,6 +55,33 @@
      <servlet-mapping> 
     <servlet-name>HomeLogView</servlet-name>
      <url-pattern>/HomeLog</url-pattern> 
+     </servlet-mapping>
+     
+      <servlet>
+   <servlet-name>LastPage</servlet-name>
+    <servlet-class>view.LastPage</servlet-class> 
+    </servlet>
+     <servlet-mapping> 
+    <servlet-name>LastPage</servlet-name>
+     <url-pattern>/LastPage</url-pattern> 
+     </servlet-mapping>
+     
+     <servlet>
+   <servlet-name>Contatti</servlet-name>
+    <servlet-class>view.Contatti</servlet-class> 
+    </servlet>
+     <servlet-mapping> 
+    <servlet-name>Contatti</servlet-name>
+     <url-pattern>/Contatti</url-pattern> 
+     </servlet-mapping>
+  
+   <servlet>
+   <servlet-name>ContattiLog</servlet-name>
+    <servlet-class>view.ContattiLog</servlet-class> 
+    </servlet>
+     <servlet-mapping> 
+    <servlet-name>ContattiLog</servlet-name>
+     <url-pattern>/ContattiLog</url-pattern> 
      </servlet-mapping>
   
   

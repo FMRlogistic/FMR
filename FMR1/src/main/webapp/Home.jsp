@@ -56,7 +56,7 @@ footer {
 		<div class="collapse navbar-collapse" id="myNavbar">
 			<ul class="nav navbar-nav">
 				<li class="active"><a href="http://localhost:8080/FMR1/Home">Home</a></li>
-				<li><a href="#">Contatti</a></li>
+				<li class="active"><a href="http://localhost:8080/FMR1/Contatti">Contatti</a></li>
 			</ul>
 			<ul class="nav navbar-nav navbar-right">
 				<li><a href="http://localhost:8080/FMR1/Login"><span class="glyphicon glyphicon-log-in"></span>
@@ -104,7 +104,9 @@ footer {
 			<span class="sr-only">Next</span>
 		</a>
 	</div>
-
+<marquee width=45% height=30 direction="up" scrollAmount=1>
+<div align="center">
+</div></marquee>
 	<div class="container text-center">
 		<br>
 		<div class="row">
@@ -118,7 +120,7 @@ footer {
 		</div>
 	</div>
 	
-	<marquee width=45% height=215 direction="up" scrollAmount=1>
+	<marquee width=45% height=100 direction="up" scrollAmount=1>
 <div align="center">
 </div></marquee>
  

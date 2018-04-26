@@ -17,7 +17,10 @@
 </div></marquee>
 
 <div class="container">
-  <h2>Login</h2>
+  <h1>Login</h1>
+  <marquee width=45% height=30 direction="up" scrollAmount=1>
+<div align="center">
+</div></marquee>
     <div class="form-group">
       <label for="email">Email:</label>
       <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
@@ -27,9 +30,12 @@
       <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
     </div>
     <form action="HomeLog">
-    <button type="Submit" class="btn btn-default">Entra</button>
+    <button type="Submit" class="btn btn-default"><h4>Entra</h4></button>
     </form>
+    <marquee width=45% height=30 direction="up" scrollAmount=1>
+<div align="center">
+</div></marquee>
     <form action="Registrazione">
-    <button type="Submit" class="btn btn-default">Non hai un account? Registrati</button>
+    <button type="Submit" class="btn btn-default"><h5>Non hai un account? Registrati</h5></button>
   </form>
 </div>
