@@ -63,7 +63,7 @@ footer {
   <div class="row">
     <div class="col-md-4">
       <p><span class="glyphicon glyphicon-map-marker"></span>Milano, IT</p>
-      <p><span class="glyphicon glyphicon-phone"></span>Telefono: +00 1515151515</p>
+      <p><span class="glyphicon glyphicon-phone"></span>Telefono: +00 1234567891</p>
       <p><span class="glyphicon glyphicon-envelope"></span>Email: FMRlogistic@gmail.com</p>
     </div>
     <div class="col-md-8">

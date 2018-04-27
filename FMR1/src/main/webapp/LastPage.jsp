@@ -71,7 +71,7 @@ footer {
   <marquee width=45% height=30 direction="up" scrollAmount=1>
 <div align="center">
 </div></marquee>
-  <h2>Il tuo ordine di spedizione è stato preso in carico e verrà spedito entro 48 ore.</h2>
+  <h2>Il tuo ordine di spedizione è stato preso in carico ed entro 24 ore un nostro dipendente si recherà all'indirizzo di residenza che ci hai fornito al momento della tua registrazione per ritirare il pacco, i tempi di spedizione  possono richiedere al massimo 48 ore.</h2>
   <marquee width=45% height=100 direction="up" scrollAmount=1>
 <div align="center">
 </div></marquee>

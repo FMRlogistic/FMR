@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+   <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
@@ -62,7 +62,7 @@ footer {
   <div class="row">
     <div class="col-md-4">
       <p><span class="glyphicon glyphicon-map-marker"></span>Milano, IT</p>
-      <p><span class="glyphicon glyphicon-phone"></span>Telefono: +00 1515151515</p>
+      <p><span class="glyphicon glyphicon-phone"></span>Telefono: +00 1234567891</p>
       <p><span class="glyphicon glyphicon-envelope"></span>Email: FMRlogistic@gmail.com</p>
     </div>
     <div class="col-md-8">
@@ -74,7 +74,7 @@ footer {
           <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
         </div>
       </div>
-      <textarea class="form-control" id="commenti" name="commenti" placeholder="Commenti" rows="5"></textarea>
+      <textarea class="form-control" id="testo" name="testo" placeholder="Testo" rows="5"></textarea>
       <br>
       <div class="row">
         <div class="col-md-12 form-group">
