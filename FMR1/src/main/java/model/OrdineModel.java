@@ -26,13 +26,7 @@ public class OrdineModel {
 
 	public int prezzo() {
 		
-		if(peso>50) {
-			
-        prezzo=100;
-        
-		}
-		
-		return prezzo;
+		return prezzo=peso*3;
 	}
 
 }

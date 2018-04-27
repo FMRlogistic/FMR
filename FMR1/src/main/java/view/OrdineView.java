@@ -17,24 +17,6 @@ public class OrdineView extends HttpServlet {
 		// TODO Auto-generated method stub
 		
 		    resp.setContentType("text/html");
-			
-		    int prova=0;
-		    
-		    int calcolo=0;
-		    
-		    if(req.getParameter("peso")!=null) {
-		    	
-			prova=Integer.parseInt(req.getParameter("peso"));
-			
-			OrdineModel OrdineM= new OrdineModel();
-			
-			OrdineM.setPeso(prova);
-			
-			calcolo=OrdineM.prezzo();
-			
-			req.setAttribute("prezzo", calcolo);
-			
-		    }
 		    
 			String nextJSP = "/Ordine.jsp";
 			RequestDispatcher dispatcher = getServletContext().getRequestDispatcher(nextJSP);

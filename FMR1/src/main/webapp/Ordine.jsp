@@ -68,45 +68,39 @@ footer {
 	
 	<body style="background-color:#c0c0d8"/>
 <div class="container">
+
   <h2>Dettagli Spedizione</h2>
-    <div class="form-group">
+  
+   <form action="Pagamento" method=GET>
       <label for="paese">Paese:</label>
       <input type="paese" class="form-control" id="paese" placeholder="paese" name="paese">
-    </div>
-    <div class="form-group">
+    
       <label for="società">Società / Privato:</label>
       <input type="società" class="form-control" id="società" placeholder="società" name="società">
-    </div>
-    <div class="form-group">
+   
       <label for="città">Città:</label>
       <input type="città" class="form-control" id="città" placeholder="città" name="città">
-    </div>
-   <div class="form-group">
+   
       <label for="indirizzo">Indirizzo:</label>
       <input type="indirizzo" class="form-control" id="indirizzo" placeholder="indirizzo" name="indirizzo">
-    </div>
-    <div class="form-group">
+   
       <label for="CAP">CAP:</label>
       <input type="CAP" class="form-control" id="CAP" placeholder="CAP" name="CAP">
-    </div>
+    
     <h2>Dettagli Articolo</h2>
-    <div class="form-group">
+    
       <label for="oggetto">Oggetto:</label>
       <input type="oggetto" class="form-control" id="oggetto" placeholder="oggetto" name="oggetto">
-    </div>
-    <div class="form-group" method="get" action="OrdineView">
+    
       <label for="peso">Peso (kg):</label>
-      <input type="peso" class="form-control" id="peso" placeholder="peso" name="peso">
-    </div>
-    <div class="form-group">
+      <input type="peso" class="form-control" id="peso" placeholder="peso" name="peso" required>
+   
       <label for="larghezza">Larghezza (m):</label>
       <input type="larghezza" class="form-control" id="larghezza" placeholder="larghezza" name="larghezza">
-    </div>
-    <div class="form-group">
+    
       <label for="lunghezza">Lunghezza (m):</label>
       <input type="lunghezza" class="form-control" id="lunghezza" placeholder="lunghezza" name="lunghezza">
-    </div>
-    <form action="Pagamento">
+		
     <button type="Submit" class="btn btn-default">Avanti</button>
   </form>
 </div>

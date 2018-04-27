@@ -21,15 +21,25 @@ public class MetodoPagamentoView extends HttpServlet {
 		
 		 resp.setContentType("text/html");
 			
-			req.setAttribute("","");
+		    int prova=0;
+		    
+		    int calcolo=0;
 			
+			   
+	    	
+				prova=Integer.parseInt(req.getParameter("peso"));
+				
+				OrdineM.setPeso(prova);
+				
+				calcolo=OrdineM.prezzo();
+				
+				req.setAttribute("prezzo", calcolo);
+		    
 			String nextJSP = "/Pagamento.jsp";
 			RequestDispatcher dispatcher = getServletContext().getRequestDispatcher(nextJSP);
 			dispatcher.forward(req,resp);
-		
-			OrdineM.prezzo();
 			
-	       req.setAttribute("prezzo",OrdineM.getPrezzo());
+		   
 	     
 	}
 
