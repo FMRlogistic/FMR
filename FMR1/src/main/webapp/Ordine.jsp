@@ -73,35 +73,39 @@ footer {
   
    <form action="Pagamento" method=GET>
       <label for="paese">Paese:</label>
-      <input type="paese" class="form-control" id="paese" placeholder="paese" name="paese">
+      <input type="text" class="form-control" id="paese" placeholder="paese" name="paese" required>
     
       <label for="società">Società / Privato:</label>
-      <input type="società" class="form-control" id="società" placeholder="società" name="società">
+      <input type="text" class="form-control" id="società" placeholder="società" name="società" required>
    
       <label for="città">Città:</label>
-      <input type="città" class="form-control" id="città" placeholder="città" name="città">
+      <input type="text" class="form-control" id="città" placeholder="città" name="città" required>
    
       <label for="indirizzo">Indirizzo:</label>
-      <input type="indirizzo" class="form-control" id="indirizzo" placeholder="indirizzo" name="indirizzo">
+      <input type="text" class="form-control" id="indirizzo" placeholder="indirizzo" name="indirizzo" required>
    
       <label for="CAP">CAP:</label>
-      <input type="CAP" class="form-control" id="CAP" placeholder="CAP" name="CAP">
+      <input type="number" class="form-control" id="CAP" placeholder="CAP" name="CAP" required>
     
     <h2>Dettagli Articolo</h2>
     
       <label for="oggetto">Oggetto:</label>
-      <input type="oggetto" class="form-control" id="oggetto" placeholder="oggetto" name="oggetto">
+      <input type="text" class="form-control" id="oggetto" placeholder="oggetto" name="oggetto" required>
     
       <label for="peso">Peso (kg):</label>
-      <input type="peso" class="form-control" id="peso" placeholder="peso" name="peso" required>
+      <input type="number" class="form-control" id="peso" placeholder="peso" name="peso" required>
    
       <label for="larghezza">Larghezza (m):</label>
-      <input type="larghezza" class="form-control" id="larghezza" placeholder="larghezza" name="larghezza">
+      <input type="number" class="form-control" id="larghezza" placeholder="larghezza" name="larghezza" required>
     
       <label for="lunghezza">Lunghezza (m):</label>
-      <input type="lunghezza" class="form-control" id="lunghezza" placeholder="lunghezza" name="lunghezza">
+      <input type="number" class="form-control" id="lunghezza" placeholder="lunghezza" name="lunghezza" required>
 		
-    <button type="Submit" class="btn btn-default">Avanti</button>
+		<marquee width=45% height=60 direction="up" scrollAmount=1>
+<div align="center">
+</div></marquee>
+		
+    <button type="Submit" class="btn btn-default"><h4>Avanti</h4></button>
   </form>
 </div>
 

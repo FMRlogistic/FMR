@@ -72,35 +72,30 @@ footer {
   <marquee width=45% height=40 direction="up" scrollAmount=1>
 <div align="center">
 </div></marquee>
-    <div class="form-group">
+    <form action="LastPage" method=GET>
       <label for="tipoCarta">Tipo Carta:</label>
-      <input type="tipoCarta" class="form-control" id="tipoCarta" placeholder="tipoCarta" name="tipoCarta">
-    </div>
-    <div class="form-group">
+      <input type="text" class="form-control" id="tipoCarta" placeholder="tipoCarta" name="tipoCarta" required>
+    
       <label for="titolareCarta">Titolare Carta:</label>
-      <input type="titolareCarta" class="form-control" id="titolareCarta" placeholder="titolareCarta" name="titolareCarta">
-    </div>
-    <div class="form-group">
+      <input type="text" class="form-control" id="titolareCarta" placeholder="titolareCarta" name="titolareCarta" required>
+    
       <label for="numeroCarta">Numero Carta:</label>
-      <input type="numeroCarta" class="form-control" id="numeroCarta" placeholder="numeroCarta" name="numeroCarta">
-    </div>
-   <div class="form-group">
+      <input type="number" class="form-control" id="numeroCarta" placeholder="numeroCarta" name="numeroCarta" required>
+    
       <label for="dataScadenza">Data di Scadenza:</label>
-      <input type="dataScadenza" class="form-control" id="dataScadenza" placeholder="dataScadenza" name="dataScadenza">
-    </div>
-    <div class="form-group">
+      <input type="date" class="form-control" id="dataScadenza" placeholder="dataScadenza" name="dataScadenza" required>
+   
       <label for="CVV">CVV:</label>
-      <input type="CVV" class="form-control" id="CVV" placeholder="CVV" name="CVV">
-    </div>
-    <marquee width=45% height=30 direction="up" scrollAmount=1>
+      <input type="number" class="form-control" id="CVV" placeholder="CVV" name="CVV" required>
+    
+    <marquee width=45% height=60 direction="up" scrollAmount=1>
 <div align="center">
 </div></marquee>
-    <form action="LastPage">
-    <button type="Submit" class="btn btn-default">Avanti</button>
+    <button type="Submit" class="btn btn-default"><h4>Avanti</h4></button>
   </form>
 </div>
 
-<marquee width=45% height=100 direction="up" scrollAmount=1>
+<marquee width=45% height=160 direction="up" scrollAmount=1>
 <div align="center">
 </div></marquee>
 

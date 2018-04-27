@@ -64,7 +64,7 @@ footer {
     <div class="col-md-4">
       <p><span class="glyphicon glyphicon-map-marker"></span>Milano, IT</p>
       <p><span class="glyphicon glyphicon-phone"></span>Telefono: +00 1515151515</p>
-      <p><span class="glyphicon glyphicon-envelope"></span>Email: mail@mail.com</p>
+      <p><span class="glyphicon glyphicon-envelope"></span>Email: FMRlogistic@gmail.com</p>
     </div>
     <div class="col-md-8">
       <div class="row">
@@ -79,7 +79,12 @@ footer {
       <br>
       <div class="row">
         <div class="col-md-12 form-group">
-          <button class="btn pull-right" type="submit">Invia</button>
+          <button onclick="myFunction()"><h4>Invia</h4></button>
+<script>
+function myFunction() {
+    alert("Messaggio Inviato!");
+}
+</script>
         </div>
       </div>
     </div>

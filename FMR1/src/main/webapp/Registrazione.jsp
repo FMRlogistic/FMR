@@ -17,42 +17,35 @@
   <marquee width=45% height=30 direction="up" scrollAmount=1>
 <div align="center">
 </div></marquee>
-    <div class="form-group">
-      <label for="nome">Nome:</label>
-      <input type="nome" class="form-control" id="nome" placeholder="nome" name="nome">
-    </div>
-    <div class="form-group">
-      <label for="cognome">Cognome:</label>
-      <input type="cognome" class="form-control" id="cognome" placeholder="cognome" name="cognome">
-    </div>
-    <div class="form-group">
-      <label for="data di nascita">Data di Nascita:</label>
-      <input type="data di nascita" class="form-control" id="data di nascita" placeholder="data di nascita" name="data di nascita">
-    </div>
-    <div class="form-group">
-      <label for="città">Città:</label>
-      <input type="città" class="form-control" id="città" placeholder="città" name="città">
-    </div>
-   <div class="form-group">
-      <label for="indirizzo di residenza">Indirizzo di residenza:</label>
-      <input type="indirizzo di residenza" class="form-control" id="indirizzo di residenza" placeholder="indirizzo di residenza" name="indirizzo di residenza">
-    </div>
-    <div class="form-group">
-      <label for="email">Email:</label>
-      <input type="email" class="form-control" id="email" placeholder="email" name="email">
-    </div>
-    <div class="form-group">
-      <label for="telefono">Telefono:</label>
-      <input type="telefono" class="form-control" id="telefono" placeholder="telefono" name="telefono">
-    </div>
-    <div class="form-group">
-      <label for="codice fiscale">Codice Fiscale:</label>
-      <input type="codice fiscale" class="form-control" id="codice fiscale" placeholder="codice fiscale" name="codice fiscale">
-    </div>
-    <marquee width=45% height=30 direction="up" scrollAmount=1>
-<div align="center">
-</div></marquee>
     <form action="Login">
+      <label for="nome">Nome:</label>
+      <input type="text" class="form-control" id="nome" placeholder="nome" name="nome" required>
+   
+      <label for="cognome">Cognome:</label>
+      <input type="text" class="form-control" id="cognome" placeholder="cognome" name="cognome" required>
+   
+      <label for="data di nascita">Data di Nascita:</label>
+      <input type="date" class="form-control" id="data di nascita" placeholder="data di nascita" name="data di nascita" required>
+  
+      <label for="città">Città:</label>
+      <input type="text" class="form-control" id="città" placeholder="città" name="città" required>
+   
+      <label for="indirizzo di residenza">Indirizzo di residenza:</label>
+      <input type="text" class="form-control" id="indirizzo di residenza" placeholder="indirizzo di residenza" name="indirizzo di residenza" required>
+   
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" id="email" placeholder="email" name="email" required>
+   
+      <label for="telefono">Telefono:</label>
+      <input type="number" class="form-control" id="telefono" placeholder="telefono" name="telefono" required>
+   
+      <label for="codice fiscale">Codice Fiscale:</label>
+      <input type="text" class="form-control" id="codice fiscale" placeholder="codice fiscale" name="codice fiscale" required>
+      
+    <marquee width=45% height=80 direction="up" scrollAmount=1>
+
+</div></marquee>
+    
     <button type="Submit" class="btn btn-default"><h4>Registrati</h4></button>
   </form>
 </div>

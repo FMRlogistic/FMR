@@ -25,8 +25,6 @@ public class MetodoPagamentoView extends HttpServlet {
 		    
 		    int calcolo=0;
 			
-			   
-	    	
 				prova=Integer.parseInt(req.getParameter("peso"));
 				
 				OrdineM.setPeso(prova);
