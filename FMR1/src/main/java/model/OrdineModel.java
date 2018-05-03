@@ -2,31 +2,38 @@ package model;
 
 public class OrdineModel {
 	
-	private int peso, prezzo;
+	private double peso, prezzo;
 
-
-	public int getPrezzo() {
-		return prezzo;
-	}
-
-
-	public void setPrezzo(int prezzo) {
-		this.prezzo = prezzo;
-	}
-
-
-	public int getPeso() {
+	
+	public double getPeso() {
 		return peso;
 	}
 
 
-	public void setPeso(int peso) {
+
+	public void setPeso(double peso) {
 		this.peso = peso;
 	}
 
-	public int prezzo() {
+
+
+	public double getPrezzo() {
+		return prezzo;
+	}
+
+
+
+
+	public void setPrezzo(double prezzo) {
+		this.prezzo = prezzo;
+	}
+
+
+
+
+	public double prezzo() {
 		
-		return prezzo=peso*3;
+		return prezzo=peso*2.4;
 	}
 
 }

@@ -14,7 +14,8 @@ public class LastPage extends HttpServlet {
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		// TODO Auto-generated method stub
         resp.setContentType("text/html");
-		
+        
+        
 		req.setAttribute("","");
 		
 		String nextJSP = "/LastPage.jsp";

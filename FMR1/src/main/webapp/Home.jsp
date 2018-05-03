@@ -104,7 +104,7 @@ footer {
 			<span class="sr-only">Next</span>
 		</a>
 	</div>
-<marquee width=45% height=30 direction="up" scrollAmount=1>
+<marquee width=45% height=60 direction="up" scrollAmount=1>
 <div align="center">
 </div></marquee>
 	<div class="container text-center">
@@ -120,7 +120,7 @@ footer {
 		</div>
 	</div>
 	
-	<marquee width=45% height=100 direction="up" scrollAmount=1>
+	<marquee width=45% height=120 direction="up" scrollAmount=1>
 <div align="center">
 </div></marquee>
  

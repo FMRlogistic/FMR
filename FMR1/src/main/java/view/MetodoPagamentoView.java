@@ -21,11 +21,11 @@ public class MetodoPagamentoView extends HttpServlet {
 		
 		 resp.setContentType("text/html");
 			
-		    int prova=0;
+		    double prova=0;
 		    
-		    int calcolo=0;
+		    double calcolo=0;
 			
-				prova=Integer.parseInt(req.getParameter("peso"));
+				prova=Double.parseDouble(req.getParameter("peso"));
 				
 				OrdineM.setPeso(prova);
 				
