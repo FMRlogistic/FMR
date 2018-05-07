@@ -74,19 +74,19 @@ footer {
 </div></marquee>
     <form action="LastPage" method=GET>
       <label for="tipoCarta">Tipo Carta:</label>
-      <input type="text" class="form-control" id="tipoCarta" placeholder="tipoCarta" name="tipoCarta" required>
+      <input type="text" class="form-control" id="tipoCarta" placeholder="es:Mastercard" name="tipoCarta" required>
     
       <label for="titolareCarta">Titolare Carta:</label>
       <input type="text" class="form-control" id="titolareCarta" placeholder="titolareCarta" name="titolareCarta" required>
     
       <label for="numeroCarta">Numero Carta:</label>
-      <input type="number" class="form-control" id="numeroCarta" placeholder="numeroCarta" name="numeroCarta" required>
+      <input type="number" class="form-control" id="numeroCarta" placeholder="es:1234-2345-3456-4567" name="numeroCarta" required>
     
       <label for="dataScadenza">Data di Scadenza:</label>
       <input type="date" class="form-control" id="dataScadenza" placeholder="dataScadenza" name="dataScadenza" required>
    
       <label for="CVV">CVV:</label>
-      <input type="number" class="form-control" id="CVV" placeholder="CVV" name="CVV" required>
+      <input type="number" class="form-control" id="CVV" placeholder="es:123" name="CVV" required>
     
     <marquee width=45% height=60 direction="up" scrollAmount=1>
 <div align="center">

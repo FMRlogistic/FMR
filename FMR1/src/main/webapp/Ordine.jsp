@@ -85,7 +85,7 @@ footer {
       <input type="text" class="form-control" id="indirizzo" placeholder="indirizzo" name="indirizzo" required>
    
       <label for="CAP">CAP:</label>
-      <input type="number" class="form-control" id="CAP" placeholder="CAP" name="CAP" required>
+      <input type="number" class="form-control" id="CAP" placeholder="es:20090" name="CAP" required>
     
     <h2>Dettagli Articolo</h2>
     
