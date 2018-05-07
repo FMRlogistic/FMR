@@ -1,14 +1,10 @@
-package controller;
 
-import model.*;
+package controller;
 
 public class ValidatoreUtentea {
 	
-	public void controlli(){
-
-	UtenteaModel UtenteM= new UtenteaModel();
 	
-	}
+	
 	
 }	
 

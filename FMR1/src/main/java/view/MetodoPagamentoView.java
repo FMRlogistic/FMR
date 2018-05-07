@@ -37,7 +37,6 @@ public class MetodoPagamentoView extends HttpServlet {
 			RequestDispatcher dispatcher = getServletContext().getRequestDispatcher(nextJSP);
 			dispatcher.forward(req,resp);
 			
-		   
 	     
 	}
 

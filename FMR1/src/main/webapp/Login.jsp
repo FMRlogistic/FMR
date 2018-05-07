@@ -26,11 +26,11 @@
 	</marquee>
 	<form action="HomeLog">
 		<label for="email">Email:</label> <input type="email"
-			class="form-control" id="email" placeholder="Enter email"
+			class="form-control" id="email" placeholder="Inserisci email"
 			name="email" required> 
 			<label for="pwd">Password:</label> <input
 			type="password" class="form-control" id="pwd"
-			placeholder="Enter password" name="pwd" required>
+			placeholder="Inserisci password" name="pwd" required>
 
 		<button type="Submit" class="btn btn-default">
 			<h4>Entra</h4>

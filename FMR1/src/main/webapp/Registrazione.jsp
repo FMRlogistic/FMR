@@ -25,7 +25,7 @@
       <input type="text" class="form-control" id="cognome" placeholder="cognome" name="cognome" required>
    
       <label for="data di nascita">Data di Nascita:</label>
-      <input type="date" class="form-control" id="data di nascita" placeholder="data di nascita" name="data di nascita" required>
+      <input type="date" class="form-control" id="data di nascita" name="data di nascita" required>
   
       <label for="città">Città:</label>
       <input type="text" class="form-control" id="città" placeholder="città" name="città" required>

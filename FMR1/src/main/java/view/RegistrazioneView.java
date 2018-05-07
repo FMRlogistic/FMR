@@ -16,10 +16,6 @@ public class RegistrazioneView extends HttpServlet {
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		
-		UtenteaModel UtenteM= new UtenteaModel();
-		
-		ValidatoreUtentea ValidUtentea= new ValidatoreUtentea();
-		
         resp.setContentType("text/html");
 		
 		req.setAttribute("","");
@@ -27,10 +23,6 @@ public class RegistrazioneView extends HttpServlet {
 		String nextJSP = "/Registrazione.jsp";
 		RequestDispatcher dispatcher = getServletContext().getRequestDispatcher(nextJSP);
 		dispatcher.forward(req,resp);
-		
-	    UtenteM.setTelefono(req.getParameter("telefono"));
-	    
-	    ValidUtentea.controlli();
 		
 	}
 
